@@ -28,7 +28,7 @@ st.subheader('Peningkatan Peminjaman Sepeda Bulanan Selama 2 Tahun')
 
 # Konversi indeks menjadi (tahun, bulan) (biar rapih hehehe)
 def convert_to_month_year(index):
-    year = index // 12 + 2019
+    year = index // 12 + 2011
     month = index % 12 + 1
     if month < 10:
         return f'({year}, 0{month})'
